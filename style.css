@@ -335,6 +335,12 @@ section {
 
 }
 
+@media (max-width: 768px) {
+    .main {
+        background-size: contain;
+        background-attachment: scroll;
+        
+
 @media (max-width:641px){
     body{
         font-size: 12px;
