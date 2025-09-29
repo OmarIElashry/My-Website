@@ -50,9 +50,8 @@ section {
     display: flex;
     align-items: center;
     background: url(images/download\ \(2\).png) no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -332,14 +331,9 @@ section {
         flex-direction: column;
         align-items: center;
     }
+    
 
 }
-
-@media (max-width: 768px) {
-    .main {
-        background-size: contain;
-        background-attachment: scroll;
-        
 
 @media (max-width:641px){
     body{
